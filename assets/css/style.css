@@ -1,0 +1,165 @@
+#navbar_pub {
+    background-image: url("../img/fondito.jpg");
+    background-repeat: repeat-x;
+    background-position-y: -5px;
+    background-size: 25vw;
+}
+
+/* titulo y destacados */
+#titulo_pub {
+    text-align: center;
+    color: grey;
+}
+
+#destacados_txt {
+    text-align: center;
+    text-decoration: overline;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+/* forms */
+.motivo {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+#fcontacto {
+    display: block;
+}
+
+#freserva {
+    display: block;
+}
+
+.formpub {
+    margin-bottom: 4vh !important;
+}
+
+/* flotantes */
+.popUp {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#flotanteTabla {
+    width: 50vw;
+}
+
+/* footer */
+.footerdiv {
+    background-image: url("../img/fondito.jpg");
+    background-size: 63vw;
+    background-repeat: repeat-x;
+    background-position-y: -5px;
+    height: 40vh !important;
+
+}
+
+.derechos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+    #navbar_pub {
+        background-repeat: repeat-x;
+        background-size: 50vw;
+    }
+
+    .navbar_right {
+        justify-content: end !important;
+    }
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    #navbar_pub {
+        background-repeat: repeat-x;
+        background-size: 50vw;
+    }
+
+    .logoimg {
+        margin-right: 80vw !important;
+    }
+
+    #fcontacto {
+        display: none;
+    }
+
+    #freserva {
+        display: none;
+    }
+
+
+    .cdestacado {
+        width: 80vw !important;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+        object-fit: cover !important;
+        max-height: 500px !important;
+    }
+
+    .popUp {
+        width: 90vw;
+    }
+
+    #flotanteTabla {
+        width: 90vw;
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    .logoimg {
+        margin-right: 78vw;
+    }
+
+    #navbar_pub {
+        background-size: 90vh;
+        background-repeat: repeat-x;
+        background-position-x: 50%;
+        background-position-y: 10%;
+
+    }
+
+    .col-3 {
+        width: 90vw;
+    }
+
+    .card-img-top {
+        height: 100% !important;
+        object-fit: cover !important;
+        max-height: 400px !important;
+    }
+
+    #fcontacto {
+        display: none;
+    }
+
+    #freserva {
+        display: none;
+    }
+
+    .footerdiv {
+        background-image: none;
+        background-color: black !important;
+    }
+
+    .popUp {
+        width: 90vw;
+    }
+
+    #flotanteTabla {
+        width: 90vw;
+    }
+}
