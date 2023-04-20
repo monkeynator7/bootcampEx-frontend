@@ -27,8 +27,8 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Nuestros Productos</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link">Sobre Nosotros</a>
+          <li class="nav-item" id="botonSobreNosotros">
+            <a class="nav-link" href="#">Sobre Nosotros</a>
           </li>
           <li class="nav-item" id="bcontacto">
             <a class="nav-link" href="#fcontacto" onclick="mostrarFormularioContacto()">Comuniquemonos</a>
@@ -265,6 +265,55 @@
     </div>
   </div>
   <!-- Fin Flotante Cerveza -->
+  <!-- Carrusel sobre nosotros -->
+  <div class="container-fluid carruselElfa" id="abrirCarrusel">
+    <div class="carousel slide container" data-bs-ride="carousel" id="carouselSlide"
+      style="width: 55vw; height: 65vh; background-color: black; text-align: center;">
+      <div class="carousel-inner" style="width: 100%; height: 100%; margin-top: 3vh;">
+        <button type="button" id="botonCerrarCarrusel" class="btn-close btn-close-white"
+          style="display: block; margin-top: 1vh; margin-left: 3px; margin-bottom: 1vh;"></button>
+        <div class="carousel-item active container-fluid" style=" color: white; text-align: center;">
+          <h2>Nimrodel Pub Restaurant</h2>
+          <p style="margin-right: 10%; margin-left: 10%">Nimrodel significa " dama de la cueva blanca". Fue
+            una
+            elfa silvana que vivió durante la Tercera
+            Edad del Sol en el bosque de Lothlórien. En honor a su nombre, se acuña Nimrodel al río que nace
+            en
+            las Montañas Nubladas.</p>
+          <img src="assets/img/IMG2.jpg" class="img-fluid">
+
+        </div>
+        <div class="carousel-item container-fluid" style="  color: white; justify-content: center; text-align: center;">
+          <p style="margin-top: 5%; margin-bottom: 10%; margin-left: 10%; margin-right: 10%;">“Nimrodel Pub
+            Restaurant es un oasis de
+            calma y
+            diversión, lleno de
+            rincones acogedores
+            en donde se resalta la belleza de su decoración élfica.
+            Es un lugar ideal para visitar solo o acompañado, disfrutar una tarde con amigos, terminar
+            el día después del trabajo o almorzar con tu familia.
+            Puedes probar nuestras tradicionales tablas, en todas sus variedades y que nos han
+            otorgado reconocimiento dentro de la cultura gastronómica.
+            También puedes disfrutar nuestras cervezas de fabricación propia, con sabores que te
+            llevarán a un mágico mundo.”</p>
+        </div>
+        <div class="carousel-item container-fluid" style=" background-color: black; color: white; text-align: center;">
+          <img src="assets/img/IMG1.jpg" class="img-fluid" width="40%" height="95%">
+
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev"
+        style="padding-right: 10px;">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselSlide" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-- Fin carrusel sobre nosotros -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

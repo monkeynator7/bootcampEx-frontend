@@ -127,4 +127,15 @@ $(document).ready(function () {
     $("#flotanteCerveza").hide();
 
   });
+
+  $("#botonSobreNosotros").click(function () {
+    $("#abrirCarrusel").show();
+
+  });
+  $("#botonCerrarCarrusel").click(function () {
+    $("#abrirCarrusel").hide();
+
+  });
+
+
 })

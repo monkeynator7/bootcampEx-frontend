@@ -69,6 +69,26 @@
     transform: translate(-50%, -50%);
 }
 
+.carruselElfa {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-control-prev {
+    height: 50vh !important;
+    margin-top: 5vh !important;
+    padding-top: 5vh !important;
+}
+
+.carousel-control-next {
+    height: 50vh !important;
+    margin-top: 5vh !important;
+    padding-top: 5vh !important;
+}
+
 @media (min-width:992px) and (max-width:1199px) {
     #navbar_pub {
         background-repeat: repeat-x;
