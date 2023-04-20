@@ -99,6 +99,13 @@
         justify-content: end !important;
     }
 
+    #carouselSlide {
+        height: 70vh;
+    }
+
+    #imagenUnoCarrusel {
+        margin-top: 50px;
+    }
 }
 
 @media (min-width:768px) and (max-width:991px) {
@@ -136,6 +143,10 @@
 
     #flotanteTabla {
         width: 90vw;
+    }
+
+    #carouselSlide {
+        font-size: 12px !important;
     }
 }
 
@@ -181,5 +192,18 @@
 
     #flotanteTabla {
         width: 90vw;
+    }
+
+    #carouselSlide {
+        font-size: 10px !important;
+    }
+
+    #imagenUnoCarrusel {
+        height: 100vh !important;
+        width: 30vw !important;
+    }
+
+    #tituloImagenDos {
+        font-size: medium !important;
     }
 }
