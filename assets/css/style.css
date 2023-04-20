@@ -104,7 +104,17 @@
     }
 
     #imagenUnoCarrusel {
-        margin-top: 50px;
+        margin-top: 10px !important;
+    }
+
+    #imagenDos {
+        width: 40%;
+        height: 30%;
+
+    }
+
+    #parrafoUno {
+        font-size: 15px !important;
     }
 }
 
@@ -147,6 +157,16 @@
 
     #carouselSlide {
         font-size: 12px !important;
+    }
+
+    #imagenUnoCarrusel {
+        height: 60vh !important;
+        width: 50vw !important;
+    }
+
+    #imagenUnoC {
+        height: 90% !important;
+        width: 60% !important;
     }
 }
 
@@ -199,8 +219,13 @@
     }
 
     #imagenUnoCarrusel {
-        height: 100vh !important;
-        width: 30vw !important;
+        height: 70vh !important;
+        width: 50vw !important;
+    }
+
+    #imagenUnoC {
+        height: 90% !important;
+        width: 90% !important;
     }
 
     #tituloImagenDos {
